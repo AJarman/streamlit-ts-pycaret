@@ -9,6 +9,8 @@ from pycaret.time_series import TSForecastingExperiment
 
 from datasets import DATASET_MAP
 
+st.set_page_config(page_title='AutoTS', page_icon=':stopwatch:')
+
 ts_exp = TSForecastingExperiment()
 dataset: Union[pd.DataFrame, pd.Series] = pd.DataFrame()
 

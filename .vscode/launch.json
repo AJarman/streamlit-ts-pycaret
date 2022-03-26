@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Module",
+            "name": "Python: Streamlit",
             "type": "python",
             "request": "launch",
-            "module": "streamlit run main.py",
-            "justMyCode": false
+            "module": "streamlit",
+            "args": ["run", "${file}"],
+            "justMyCode": true
         }
     ]
 }
